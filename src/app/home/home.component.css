@@ -1,0 +1,49 @@
+.color-dark {
+    background: rgb(56, 146, 206)
+}
+h2{
+    color: rgb(229, 236, 243);
+}
+.color-light {
+    background: #57B3F1
+}
+.container {
+    width:100%;
+    display: inline-block;
+}
+.col {
+    width: 50%;
+    align-content: center;
+    display: inline-block
+}
+
+.bucket-item {
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    width:70%;
+    font-weight: bold;
+
+}
+.right {
+    float: right;
+}
+
+.col>p {
+    font-size: 18px;
+    margin: 15px;
+    color: white;
+}
+
+.txt {
+    border-radius: 4px;
+    padding: 6px;
+    width:70%;
+}
+
+.btn, .primary {
+    background-color: rgb(84, 236, 130);
+    padding: 7px;
+    border-radius: 5px;
+    margin:15px;
+}

@@ -1,0 +1,18 @@
+<div>
+  <h2>Things to do before you die...</h2>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p>Add items to your list</p>
+    <p>
+      <input type="text" class="txt" [(ngModel)]="newItem" placeholder="I want to..">
+    </p>
+    <button type="submit" class="primary btn" (click)="addItem()">Add</button>
+  </div>
+  <div class="col right">
+    <p><i>You're yet to strike off ({{bucketItems.length}}) items before you die</i></p>
+    <p class="bucket-item color-dark" *ngFor="let item of bucketItems">
+      {{item}}
+    </p>
+  </div>
+</div>
