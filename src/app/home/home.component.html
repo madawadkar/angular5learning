@@ -10,7 +10,7 @@
     <button type="submit" class="primary btn" (click)="addItem()">Add</button>
   </div>
   <div class="col right">
-    <p><i>You're yet to strike off ({{bucketItems.length}}) items before you die</i></p>
+    <p><i>You're yet to strike off ({{bucketItems.length}}) items to do before you die</i></p>
     <p class="bucket-item color-dark" *ngFor="let item of bucketItems">
       {{item}}
     </p>
